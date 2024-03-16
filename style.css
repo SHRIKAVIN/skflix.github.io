@@ -83,7 +83,7 @@ footer {
 
 
 h1 {
-    background-image: url('image/LOGO.png'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-image: url('LOGO.png'); /* Replace 'your-image-url.jpg' with the URL of your image */
     background-size: contain; /* Scale the image to fit the content box */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     text-indent: -9999px; /* Move the text off-screen */
