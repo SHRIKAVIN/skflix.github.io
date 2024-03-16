@@ -20,6 +20,33 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     height: 100vh;
 }
+/* Landscape Orientation */
+@media (orientation: landscape) {
+    body {
+        font-size: 16px; /* Adjust font size for landscape orientation */
+    }
+
+    /* Add more rules as needed for landscape orientation */
+}
+
+/* Portrait Orientation */
+@media (orientation: portrait) {
+    body {
+        font-size: 14px; /* Adjust font size for portrait orientation */
+    }
+
+    /* Add more rules as needed for portrait orientation */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    /* Add more responsive rules for smaller screens */
+}
+
 
 /* Navigation styles */
 header {
@@ -83,7 +110,7 @@ footer {
 
 
 h1 {
-    background-image: url('https://raw.githubusercontent.com/SHRIKAVIN/skflix.github.io/main/LOGO.png'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-image: url('image/LOGO.png'); /* Replace 'your-image-url.jpg' with the URL of your image */
     background-size: contain; /* Scale the image to fit the content box */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     text-indent: -9999px; /* Move the text off-screen */
