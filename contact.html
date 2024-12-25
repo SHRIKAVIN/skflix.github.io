@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> SKFLIX contact us</title>
+    <title>SKFLIX Contact Us</title>
     <link rel="stylesheet" href="contact.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      function redirectToThankYouPage() {
+        window.location.href = "thankyou.html";
+      }
+    </script>
+  </head>
 <body>
   <div class="container">
     <div class="content">
@@ -22,33 +26,31 @@
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div>
           <div class="text-one">+91 9965278945</div>
-          
         </div>
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div>
           <div class="text-one">shrikavinkbs@gmail.com</div>
-          
         </div>
       </div>
       <div class="right-side">
         <div class="topic-text">Send us a message</div>
         <p>Feel free to drop us a message with any inquiries, feedback, or suggestions you may have, and we'll get back to you as soon as possible.</p>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box">
-          
-        </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
-      </form>
-    </div>
+        <form action="javascript:void(0);">
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box message-box">
+            <textarea placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="button">
+            <input type="button" value="Send Now" onclick="redirectToThankYouPage()">
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </body>
