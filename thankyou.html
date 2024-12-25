@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f9f9f9;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    .message {
-      text-align: center;
-    }
-    .message h1 {
-      color: #4caf50;
-    }
-    .message p {
-      color: #555;
-    }
-  </style>
-</head>
-<body>
-  <div class="message">
-    <h1>Thank You!</h1>
-    <p>We appreciate your feedback. We'll get back to you soon!</p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5; url=index.html" />
+    <title>Thank You</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background: #f3f4f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .thank-you-container {
+        max-width: 600px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      h1 {
+        color: #4caf50;
+        font-size: 2.5rem;
+      }
+      p {
+        color: #555;
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+      a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thank-you-container">
+      <h1>Thank You!</h1>
+      <p>Your submission was successful.</p>
+      <p>
+        You will be redirected to the <a href="login.html">home page</a> in 5
+        seconds.
+      </p>
+    </div>
+  </body>
 </html>
