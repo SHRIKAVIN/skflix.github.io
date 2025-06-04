@@ -41,7 +41,9 @@ body {
 header {
     background-color: #000000;
     color: #ffffff;
-    padding: 20 sort: large;
+    padding: 20px; /* Fixed: Added 'px' unit to padding */
+    text-align: center;
+    font-size: large; /* Added: Assuming 'sort: large' was meant to be 'font-size: large' */
 }
 
 nav {
@@ -80,7 +82,7 @@ footer {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    margin-top: 20px; /* Add spacing between pagination and footer */
+    margin-top: 20px;
 }
 
 h1 {
